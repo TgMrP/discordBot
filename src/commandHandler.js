@@ -1,7 +1,8 @@
 const ping = require('./commands/ping');
 const sum = require('./commands/sum');
 const eightBall = require('./commands/8ball');
-const kickUser = require('./commands/kick');
+const kick = require('./commands/kick');
+const ban = require('./commands/ban');
 const role = require('./commands/role');
 const knock = require('./commands/knock');
 const joke = require('./commands/joke');
@@ -23,8 +24,9 @@ const commands = {
   amazeme,
   info,
   help,
+  kick,
+  ban,
   '8ball': eightBall,
-  'kick': kickUser
 };
 
 module.exports = async (msg) => {
