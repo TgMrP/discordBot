@@ -3,7 +3,7 @@ const sum = require('./commands/sum');
 const eightBall = require('./commands/8ball');
 const kickUser = require('./commands/kick');
 const role = require('./commands/role');
-const joke = require('./commands/joke');
+const knock = require('./commands/knock');
 
 const guildID = process.env.GUILD_ID;
 const channelID = process.env.CHANNEL_ID;
@@ -12,7 +12,7 @@ const commands = {
   ping,
   sum,
   role,
-  joke,
+  knock,
   '8ball': eightBall,
   'kick': kickUser
 };
