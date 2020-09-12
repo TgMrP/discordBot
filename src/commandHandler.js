@@ -8,6 +8,7 @@ const joke = require('./commands/joke');
 const meme = require('./commands/meme');
 const amazeme = require('./commands/amazeme');
 const info = require('./commands/info');
+const help = require('./commands/help');
 
 const guildID = process.env.GUILD_ID;
 const channelID = process.env.CHANNEL_ID;
@@ -21,6 +22,7 @@ const commands = {
   meme,
   amazeme,
   info,
+  help,
   '8ball': eightBall,
   'kick': kickUser
 };
