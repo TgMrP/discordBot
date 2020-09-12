@@ -10,6 +10,8 @@ const meme = require('./commands/meme');
 const amazeme = require('./commands/amazeme');
 const info = require('./commands/info');
 const help = require('./commands/help');
+const purge = require('./commands/purge');
+const ask = require('./commands/ask');
 
 const guildID = process.env.GUILD_ID;
 const channelID = process.env.CHANNEL_ID;
@@ -26,6 +28,8 @@ const commands = {
   help,
   kick,
   ban,
+  purge,
+  ask,
   '8ball': eightBall,
 };
 
