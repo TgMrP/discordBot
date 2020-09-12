@@ -1,5 +1,5 @@
 module.exports = async (msg, args) => {
-  if (!args[1]) {
+  if (!args[0]) {
     msg.reply("Please ask a question `+!ask your_question`");
   } else {
     let replies = [
