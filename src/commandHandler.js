@@ -12,6 +12,7 @@ const info = require('./commands/info');
 const help = require('./commands/help');
 const purge = require('./commands/purge');
 const ask = require('./commands/ask');
+const chuck = require('./commands/chuck');
 
 const guildID = process.env.GUILD_ID;
 const channelID = process.env.CHANNEL_ID;
@@ -31,6 +32,7 @@ const commands = {
   purge,
   ask,
   '8ball': eightBall,
+  chuck
 };
 
 module.exports = async (msg) => {

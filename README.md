@@ -3,11 +3,16 @@
 ## commands
 
 - !ping
-- !sum x+y+z
-- !eightBall ****\_\_\_\_****
-- !kickUser @user
-- !role (add/remove) @user
+- !sum `1+2+3+4+5+6+7`
+- !8ball `some words`
+- !kick`@user`
+- !ban `@user`
+- !role `add/remove` `@user`
 - !knock
 - !joke
 - !meme
-- !amazemee
+- !amazeme
+- !asq `your question`
+- !info
+- !purge `number of messages`
+- !chuck
